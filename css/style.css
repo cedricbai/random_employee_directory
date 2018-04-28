@@ -1,0 +1,135 @@
+body{
+  font-family: Helvetica, sans-serif;
+  color: #222;
+  margin-top: 2.5%;
+  margin-left: 2%;
+  background-color: #FCFCFC;
+}
+
+#starter {
+	color: #A1A1A1;
+	margin-left: 4.8%;
+}
+
+.grid-25, .tablet-grid-50
+{
+	display: block;
+	float: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 6px;
+    background-color: #FFFFFF;
+}
+.the_pic{
+	width: 35%;
+	float: left;
+}
+.images{
+	border-radius: 40px;
+    width: 80px;
+    height: auto;
+}
+
+.detail_images{
+	border-radius: 60px;
+    width: 120px;
+    height: auto;
+}
+.detail_pic{
+	text-align: center;
+	margin-top: 12%;
+}
+.the_info{
+	/*float: right;*/
+	width: 60%;
+	margin-left: 1%;
+	float: left;
+}
+
+.names{
+	font-weight: bold;
+	margin-bottom: 1%;
+}
+
+.emails,.cities
+{
+	/*margin-left: 1%;*/
+	color: #A1A1A1;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	font-size: small;
+}
+
+.grid-container {
+  max-width: 100%;
+  position: relative;
+}
+
+#employees li{
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-top: 2%;
+	width: 25%;
+	height: 23%;
+	border: 2px solid #F2F2F2;
+	border-radius: 5px;
+}
+
+.modal {
+	position: fixed;
+	z-index: 1;
+	padding-top: 100px;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal-content {
+	position: relative;
+	display: none;
+	background-color: #fefefe;
+    margin: auto;
+    height: 60%;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 23%;
+    border-radius: 15px;
+}
+
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.the_names{
+	text-align: center;
+	font-weight: bold;
+	overflow: hidden;
+}
+
+.the_emails, .the_cities,
+.cells, .detail_location, .birth-date{
+	color: #A1A1A1;
+	text-align: center;
+	overflow: hidden;
+}
+
+/*.detail_info
+{
+  text-decoration: underline;
+}*/
